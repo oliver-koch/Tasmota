@@ -135,7 +135,7 @@ void (*const iBeacon_Commands[])(void) PROGMEM = {
 };
 
 uint8_t iBeaconOnlyAliased = 0;
-uint8_t iBeaconEnable = 0;
+uint8_t iBeaconEnable = 1;
 
 
 void CmndiBeacon(void){
